@@ -24,6 +24,25 @@ Crazy Fruits es un juego de plataformas 2D, el cual tiene por objetivo recolecta
 
 https://www.youtube.com/watch?v=WyeGjZHPjik
 
+*Como instalar*
+
+
+⚠️  Previamente tener instalado:
+
+                              Visual Studio Code
+
+                              Python 
+
+                              Anaconda 
+
+                              Paquete Pygame
+
+                              SQLite3
+
+
+
+
+
 *Contenido del juego*
 
 NIVEL 1
