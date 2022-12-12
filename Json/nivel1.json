@@ -1,0 +1,34 @@
+
+{
+
+"data":{
+    "nivel_1": 
+        {"ANCHO_VENTANA":"800",
+        "ALTO_VENTANA":"600",
+        "GROUND_LEVEL":"500",
+        "FPS":"150",
+        "BLACK":"(0,0,0)",
+        "WHITE": "(255,255,255)",
+        "DIRECTION_L":"0",
+        "DIRECTION_R":"1",
+        "flags":"DOUBLEBUF",
+        "imagen_fondo":"../Project2/recursos/Background/background4.png",
+        "movible_list":{"movible_1":{"x":"100","y":"150","max_x":"790","min_x":"20","max_y":"790","min_y":"20","speed":"2","frame_rate_ms":50,"move_rate_ms":25}},
+        "player_list":{"player_1":{"x":"30","y":"400","speed_walk":"6","speed_run":"12","gravity":"10","jump_power":"30","frame_rate_ms":"100","move_rate_ms":"50","jump_height":"140","p_scale":"1","interval_time_jump":"300"}},
+        "enemy_list":{
+                    "enemy_1":{"x":"500","y":"350","personaje":"Bunny","colum_walk":"12","colum_idle":"8","colum_hit":"5","colum_jump":"1","colum_fall":"1","colum_attack":"1","speed_walk":"3","speed_run":"3","gravity":"10","jump_power":"0","frame_rate_ms":"0","move_rate_ms":"0","jump_height":"0"},
+                    "enemy_2":{"x":"50","y":"270","personaje":"Bunny","colum_walk":"12","colum_idle":"8","colum_hit":"5","colum_jump":"1","colum_fall":"1","colum_attack":"1","speed_walk":"3","speed_run":"3","gravity":"10","jump_power":"0","frame_rate_ms":"0","move_rate_ms":"0","jump_height":"0"},
+                    "enemy_3":{"x":"760","y":"150","personaje":"Bunny","colum_walk":"12","colum_idle":"8","colum_hit":"5","colum_jump":"1","colum_fall":"1","colum_attack":"1","speed_walk":"3","speed_run":"3","gravity":"10","jump_power":"0","frame_rate_ms":"0","move_rate_ms":"0","jump_height":"0"}},
+        
+                       
+        },
+    "nivel_2":{},
+    "nivel_3":{}
+
+    }
+
+
+
+
+
+}

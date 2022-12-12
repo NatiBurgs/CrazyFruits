@@ -1,0 +1,13 @@
+
+{
+    "bird_list":[{
+
+            "x":30,
+            "y":250,
+            "speed":5,
+            "gravity":5,
+            "frame_rate_ms":0,
+            "move_rate_ms":0
+        }
+    ]
+}

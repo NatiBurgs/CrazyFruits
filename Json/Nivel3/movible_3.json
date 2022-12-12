@@ -1,0 +1,62 @@
+{
+    "movible_list":[
+        {"x":250,
+        "y":300,
+        "max_x":300,
+        "min_x":10,
+        "max_y":0,
+        "min_y":0,
+        "speed":2,
+        "frame_rate_ms":0,
+        "move_rate_ms":0
+    },
+    {
+        "x":250,
+        "y":200,
+        "max_x":480,
+        "min_x":10,
+        "max_y":0,
+        "min_y":0,
+        "speed":2,
+        "frame_rate_ms":0,
+        "move_rate_ms":0
+    },
+    {
+        "x":250,
+        "y":100,
+        "max_x":580,
+        "min_x":10,
+        "max_y":0,
+        "min_y":0,
+        "speed":2,
+        "frame_rate_ms":0,
+        "move_rate_ms":0
+    },
+    {
+        "x":500,
+        "y":300,
+        "max_x":790,
+        "min_x":480,
+        "max_y":0,
+        "min_y":0,
+        "speed":2,
+        "frame_rate_ms":0,
+        "move_rate_ms":0
+    },
+    {
+        "x":500,
+        "y":400,
+        "max_x":790,
+        "min_x":280,
+        "max_y":0,
+        "min_y":0,
+        "speed":2,
+        "frame_rate_ms":0,
+        "move_rate_ms":0
+    }
+
+    ]
+        
+        
+    
+}

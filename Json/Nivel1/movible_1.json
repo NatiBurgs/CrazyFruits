@@ -1,0 +1,14 @@
+{
+    "movible_list":[
+        {"x":100,
+        "y":150,
+        "max_x":790,
+        "min_x":20,
+        "max_y":790,
+        "min_y":20,
+        "speed":2,
+        "frame_rate_ms":50,
+        "move_rate_ms":25
+    }
+    ]
+}

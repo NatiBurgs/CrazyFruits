@@ -1,0 +1,29 @@
+{
+    "movible_list":[
+        {"x":150,
+        "y":110,
+        "max_x":450,
+        "min_x":150,
+        "max_y":450,
+        "min_y":150,
+        "speed":2,
+        "frame_rate_ms":0,
+        "move_rate_ms":0
+    },
+    {
+        "x":50,
+        "y":110,
+        "max_x":450,
+        "min_x":150,
+        "max_y":450,
+        "min_y":150,
+        "speed":2,
+        "frame_rate_ms":0,
+        "move_rate_ms":0
+    }
+
+    ]
+        
+        
+    
+}

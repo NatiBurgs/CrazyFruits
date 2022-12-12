@@ -1,0 +1,19 @@
+{
+    "tramp_list":[
+        {
+            "x":300,
+            "y":140,
+            "personaje":"SpikeHead",
+            "colum_idle":4,
+            "colum_hit":4,
+            "maximo_x":400,
+            "minimo_x":180,
+            "speed":2,
+            "gravity":0,
+            "frame_rate_ms":0,
+            "move_rate_ms":0,
+            "p_scale":1
+
+        }
+    ]
+}

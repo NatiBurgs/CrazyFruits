@@ -1,0 +1,18 @@
+{
+    "player":[
+        {
+            "x":30,
+            "y":400,
+            "speed_walk":6,
+            "speed_run":12,
+            "gravity":10,
+            "jump_power":30,
+            "frame_rate_ms":100,
+            "move_rate_ms":50,
+            "jump_height":140,
+            "p_scale":1,
+            "interval_time_jump":300
+        }
+    ]
+}
+
