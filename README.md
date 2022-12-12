@@ -20,9 +20,34 @@ Crazy Fruits es un juego de plataformas 2D, el cual tiene por objetivo recolecta
                               tecla "espacio" -> salta.
                               
                               tecla "ESC" -> pausa.
+
+-Sistema de puntajes:
+
+                            destruir un enemigo -> +100 puntos de score.
+
+                            recolectar una fruta -> +50 puntos de score.
+
+                            colisión con balas enemigas -> -10 puntos de score.
+
+-Sistema de Vidas:
+
+                            colisión con enemigo o trampa -> -1 vida.
+
+                            se comienza con 100 hp (healthpoint).
+
+                            colisión con balas enemigas -> -10 puntos de hp.
+
+                            cuando la barra de hp se encuentra baja, aparecerá un símbolo de advertencia.
+
+                            al quedarse en 0 la barra de hp, el jugador pierde las 3 vidas iniciales. 
+
+
+
 *Enlace a Demo*
 
 https://www.youtube.com/watch?v=WyeGjZHPjik
+
+
 
 *Como instalar*
 
