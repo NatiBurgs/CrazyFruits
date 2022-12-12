@@ -59,8 +59,8 @@ class Enemy:
         self.collide_up.x = self.rect.x
         self.collide_up.y = y 
 
-        self.laser_sound = pygame.mixer.Sound("C:\\Users\\rocio\\Desktop\\ProbandoPygames\\recursos\\assets_laser5.ogg")
-        self.explosion_sound = pygame.mixer.Sound("C:\\Users\\rocio\\Desktop\\ProbandoPygames\\recursos\\assets_explosion.wav")
+        self.laser_sound = pygame.mixer.Sound("../Project2/recursos/sonidos/assets_laser5.ogg")
+        self.explosion_sound = pygame.mixer.Sound("../Project2/recursos/sonidos/assets_explosion.wav")
               
         self.is_jump = False
         self.is_fall = False
