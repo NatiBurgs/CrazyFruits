@@ -29,6 +29,7 @@ class Level:
         self.lives = 3
         self.tiempo_cronometro=0
         self.tiempo_transcurrido =0
+        self.time_out= 90
         self.game_lose = False
         self.game_win = False
         self.game_reset=False
@@ -117,9 +118,10 @@ class Level:
 
         #self.tiempo_cronometro = int(pygame.time.get_ticks() / 1000)
         self.tiempo_transcurrido += (delta_ms)
-        self.tiempo_cronometro = int(self.tiempo_transcurrido/1000)
+        self.tiempo_cronometro = self.time_out - int(self.tiempo_transcurrido/1000)
+        
 
-        if self.tiempo_cronometro == 60:
+        if self.tiempo_cronometro == 0:
             self.game_lose = True
             
 

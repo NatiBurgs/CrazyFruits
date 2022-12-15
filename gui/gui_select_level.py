@@ -29,7 +29,6 @@ class SelectLevel(Form):
 
     def on_click_boton1(self, parametro):
         self.set_active(parametro)
-    
   
     def update(self, lista_eventos):
         for aux_widget in self.lista_widget:

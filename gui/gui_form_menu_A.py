@@ -23,11 +23,6 @@ class Settings(Form):
         self.boton_efectos_on = Button(master=self,x=350,y=200,w=50,h=50,color_background=None,color_border=None,image_background="../Project2/recursos/gui/jungle/btn/misic.png",on_click=self.on_click_music_on,on_click_param=None,text=None,font="Verdana",font_size=30,font_color=C_WHITE)      
         self.boton_efectos_off = Button(master=self,x=450,y=200,w=50,h=50,color_background=None,color_border=None,image_background="../Project2/recursos/gui/jungle/btn/music_off.png",on_click=self.on_click_music_off,on_click_param=None,text=None,font="Verdana",font_size=30,font_color=C_WHITE)
         
-        self.titulo_sonidos = TextBox(master=self,x=100,y=300,w=100,h=60,color_background=None,color_border=None,image_background="../Project2/recursos/gui/jungle/shop/btn.png",on_click=None,on_click_param=None,text="SOUND",font="Verdana",font_size=20,font_color=C_WHITE)
-        self.boton_sonidos_on = Button(master=self,x=350,y=300,w=50,h=50,color_background=None,color_border=None,image_background="../Project2/recursos/gui/jungle/btn/misic.png",on_click=self.on_click_efect_on,on_click_param=None,text=None,font="Verdana",font_size=30,font_color=C_WHITE)      
-        self.boton_sonidos_off = Button(master=self,x=450,y=300,w=50,h=50,color_background=None,color_border=None,image_background="../Project2/recursos/gui/jungle/btn/music_off.png",on_click=self.on_click_efect_off,on_click_param=None,text=None,font="Verdana",font_size=30,font_color=C_WHITE)
-        
-
 
         self.txt1 = TextBox(master=self,x=200,y=150,w=240,h=50,color_background=None,color_border=None,image_background="../Project2/recursos/Menu/Buttons/Play.png",text="Text",font="Verdana",font_size=30,font_color=C_BLACK)
         
@@ -35,7 +30,7 @@ class Settings(Form):
         
         self.boton_exit = Button(master=self,x=600,y=10,w=50,h=50,color_background=None,color_border=None,image_background="../Project2/recursos/gui/jungle/btn/close_2.png",on_click=self.on_click_boton3,on_click_param="menu_principal",text=None,font="Verdana",font_size=30,font_color=C_WHITE)
         
-        self.lista_widget = [self.boton_sonidos_off,self.boton_sonidos_on,self.titulo_sonidos,self.boton1,self.boton2, self.pb1,self.titulo,self.boton_exit,self.boton_efectos_on, self.titulo_music,self.boton_efectos_off ]
+        self.lista_widget = [self.boton1,self.boton2, self.pb1,self.titulo,self.boton_exit,self.boton_efectos_on, self.titulo_music,self.boton_efectos_off ]
 
         
     
@@ -60,12 +55,6 @@ class Settings(Form):
     def on_click_music_on(self,parametro):
         pygame.mixer.music.set_volume(1.0)
 
-    def on_click_efect_off(self,parametro):
-        pass
-
-    def on_click_efect_on(self,parametro):
-        pass
-    
     def on_click_boton3(self, parametro):
         self.set_active(parametro)
 
